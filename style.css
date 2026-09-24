@@ -171,8 +171,8 @@ textarea {
 
     background-image:
         linear-gradient(
-            rgba(3, 35, 77, 0.70),
-            rgba(3, 35, 77, 0.70)
+            rgba(3, 35, 77, 0.40),
+            rgba(3, 35, 77, 0.40)
         ),
         url("images/hero.jpg");
 
@@ -338,7 +338,7 @@ section {
    SISTEMA DE GESTIÓN
    ========================================================= */
 
-.management {
+.management-section {
     background-color: var(--primary-color);
     color: var(--white);
 }
