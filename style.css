@@ -89,7 +89,7 @@ textarea {
 }
 
 .nav-container {
-    max-width: var(--max-width);
+    max-width: 1400px;
     height: 78px;
     margin: 0 auto;
     padding: 0 20px;
@@ -128,13 +128,13 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 22px;
+    gap: 32px;
     margin-left: auto;
 }
 
 .main-nav a {
     color: var(--white);
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     text-decoration: none;
     white-space: nowrap;
@@ -182,6 +182,10 @@ textarea {
 
     display: flex;
     align-items: center;
+}
+
+.hero h1 span {
+    color: var(--accent-color);
 }
 
 .hero-content {
@@ -272,6 +276,39 @@ section {
     font-size: 16px;
 }
 
+.section-heading {
+    text-align: center;
+}
+
+.section-heading .eyebrow {
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    color: #000000;
+    margin: 0;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.section-heading h2 span {
+    color: var(--accent-color);
+}
+
+.section-intro {
+    color: #706d6d;
+    font-size: 24px;
+    text-align: center;
+    max-width: 700px;
+    margin: 15px auto 0;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
 
 /* =========================================================
    SERVICIOS
@@ -285,6 +322,9 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .service-card {
@@ -349,7 +389,7 @@ section {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 10px;
 
     align-items: center;
 }
@@ -358,6 +398,15 @@ section {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
+    border-radius: 6px;
+}
+
+.management-image video {
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 6px;
 }
 
@@ -373,16 +422,24 @@ section {
     margin-bottom: 12px;
 }
 
+.management-content .eyebrow {
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
 .management-content h2 {
     color: var(--white);
-    font-size: 38px;
+    font-size: 48px;
     line-height: 1.2;
     margin-bottom: 25px;
 }
 
 .management-content p {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.8;
     margin-bottom: 25px;
 }
@@ -401,6 +458,9 @@ section {
     grid-template-columns: repeat(5, 1fr);
     gap: 25px;
     align-items: center;
+
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .client-logo {
